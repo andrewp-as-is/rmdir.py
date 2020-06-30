@@ -1,21 +1,16 @@
 <!--
-https://pypi.org/project/readme-generator/
-https://pypi.org/project/python-readme-generator/
+https://readme42.com
 -->
 
-[![](https://img.shields.io/pypi/pyversions/rmdir.svg?longCache=True)](https://pypi.org/project/rmdir/)
-[![](https://img.shields.io/pypi/v/rmdir.svg?maxAge=3600)](https://pypi.org/project/rmdir/)
-[![Travis](https://api.travis-ci.org/looking-for-a-job/rmdir.py.svg?branch=master)](https://travis-ci.org/looking-for-a-job/rmdir.py/)
 
-#### Installation
+[![](https://img.shields.io/pypi/v/rmdir.svg?maxAge=3600)](https://pypi.org/project/rmdir/)
+[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
+[![](https://github.com/andrewp-as-is/rmdir.py/workflows/tests42/badge.svg)](https://github.com/andrewp-as-is/rmdir.py/actions)
+
+### Installation
 ```bash
 $ [sudo] pip install rmdir
 ```
-
-#### Functions
-function|`__doc__`
--|-
-`rmdir.rmdir(path)` |recursively delete empty directories
 
 #### Examples
 ```bash
@@ -28,5 +23,5 @@ $ find . -depth -type d -exec rmdir {} \; 2>/dev/null
 ```
 
 <p align="center">
-    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
+    <a href="https://readme42.com/">readme42.com</a>
 </p>

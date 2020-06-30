@@ -1,6 +1,7 @@
-#!/usr/bin/env python
+__all__ = ['rmdir']
+
+
 import os
-import public
 
 
 def dirs(path):
@@ -13,7 +14,6 @@ def isempty(path):
     return len(os.listdir(path)) == 0
 
 
-@public.add
 def rmdir(path):
     """recursively delete empty directories"""
     path = os.path.abspath(os.path.expanduser(path))
